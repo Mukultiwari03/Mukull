@@ -1,0 +1,74 @@
+*{
+    font-family:"poppins", sans-serif;
+}
+
+.header{
+    background: rgb(255,255,255);
+    background: linear-gradient(280deg, rgba(255,255,255,0.31985294117647056) 35%, rgba(0,212,255,0.768032212885154) 100%);
+}
+
+
+.contact-button{
+    background-color: #30c0b7 !important;
+}
+
+
+
+.hero{
+    width:100%;
+    height:100vh;
+}
+
+.hero-div{
+    width:100%;
+    height:100vh;
+}
+
+.start{
+    font-size:4rem;
+    background: rgb(230,30,255);
+background: -webkit-linear-gradient(84deg, rgba(230,30,255,0.7120098039215687) 35%, rgba(0,212,255,0.768032212885154) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.icons{
+    width:80%;
+    max-width:50%;
+}
+
+.millions{
+height:100vh;
+}
+
+
+.discover{
+    width:60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media  only screen and (max-width:768px){
+    .start{
+        font-size:2rem;
+
+    }
+
+    .imgs-icons{
+        width:50px;
+        height:50px;
+    }
+
+    .discover{
+        width:100%;
+        font-size:1rem;
+    }
+}
